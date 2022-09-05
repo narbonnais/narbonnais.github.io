@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+
+<body>
+  <header id="main__header">
+    <div id="left__main__header">
+
+      <img src="{{ '/assets/images/avatar.png' |
+    relative_url }}" alt="Logo" id="main__header__avatar">
+
+      <div id="main__header__names__wrapper">
+        <h1><a href="{{ site.url }}">Alexis Fabre</a></h1>
+        <p id="main__header__name__secondary">narbonnais</p>
+      </div>
+
+    </div>
+
+    <nav id="right__main__header">
+      <ul>
+        <li><a href="/">About</a></li>
+<!--
+        <li><a href="/">Academia</a></li>
+        <li><a href="/">Projects</a></li>
+-->
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <!-- begin Bio -->
+    <article>
+      <header>
+        <h2>{{site.job}}</h2>
+      </header>
+      {{ content }}
+    </article>
+    <!-- end Bio -->
+
+    <!-- begin Experience -->
+    <article>
+      <header class="article__header">
+        <h2>🧑🏻‍💻 Experience</h2>
+      </header>
+      {% for experience in site.data.experience %}
+      <div class="resume__item">
+        <h3 class="resume__item__details group">{{ experience.position }}</h3>
+        <h4 class="resume__item__title">{{ experience.company }} &bull; {{ experience.duration }}</h4>
+        <ul class="resume-item-list">
+          {% for summary_point in experience.summary %}
+          <li>{{ summary_point }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </article>
+    <!-- end Experience -->
+
+    <!-- begin Education -->
+    <article>
+      <header class="article__header">
+        <h2>📚 Education</h2>
+      </header>
+      {% for education in site.data.education %}
+      <div class="resume__item">
+        <h3 class="resume__item__title">{{ education.uni }}</h3>
+        <h4 class="resume__item__details group">{{ education.degree }} &bull; {{ education.location }} &bull; {{
+          education.year }}</h4>
+        </h4>
+        {{ education.summary }}
+      </div>
+      {% endfor %}
+    </article>
+    <!-- end Education -->
+
+    <!-- begin Projects -->
+    <article>
+      <header class="article__header">
+        <h2>🌱 Projects</h2>
+      </header>
+      {% for project in site.data.projects %}
+      <div class="resume__item">
+        <h3 class="resume__item__title">{{ project.project }}</h3>
+        <h4 class="resume__item__details group">{{ project.role }} &bull; {{project.duration }}</h4>
+        </h4>
+        <ul class="resume-item-list">
+          {% for summary_point in project.summary %}
+          <li>{{ summary_point }}</li>
+          {% endfor %}
+        </ul>
+        <p class="resume__item__copy">Link: <a href="{{ project.url }}">{{ project.url }}</a></p>
+      </div>
+      {% endfor %}
+    </article>
+    <!-- end Projects -->
+  </section>
+
+  <footer>
+    <small>Made with <img style="height: 1em;" src="{{ '/assets/images/heart.svg' | relative_url }}" alt="Heart" /> by
+      Alexis F.</small>
+  </footer>
+</body>
+
+</html>

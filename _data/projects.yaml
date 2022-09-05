@@ -1,0 +1,24 @@
+# Projects
+
+# Arbitrage bot for decentralized cryptocurrency exchanges
+- project: Arbitrage bot for decentralized cryptocurrency exchanges
+  role: Principal developer
+  duration: Mar &mdash; Apr 2022
+  url: "https://github.com/narbonnais/osmobot-python"
+  summary:
+    - Developped python connectors for decentralized exchanges (DEX) such as Osmosis, Terraswap, etc...
+    - Implemented a trading strategy based on the price difference between pairs in the DEXes.
+    - Deployed the trading bot on a docker container and hosted it on a server.
+    - Monitored the performance through by developing a discord bot to send notifications for each trades.
+
+# Research Assistant in 5G Telecommunications
+- project: Research Assistant in 5G Telecommunications
+  role: Research Assistant at CentraleSupélec
+  duration: Sep 2018 &mdash; Jun 2019
+  url: "https://ieeexplore.ieee.org/document/9046752"
+  summary: 
+    - Mathematical modeling of the problem and formal demonstration of the results.
+    - GnuRadio implementation of encoding and decoding algorithms.
+    - Realization of tests in real conditions and experimental validation of the theory.
+    - Edited and published a scientific article in IEEE Access &mdash; DOI 10.1109/ACCESS.2020.2983299.
+

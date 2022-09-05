@@ -1,0 +1,48 @@
+# Jobs
+# Lead offensive security engineer
+- company: Halborn
+  position: Lead offensive security engineer
+  duration: Nov, 2021 &mdash; Present
+  location: Remote
+  summary: 
+    - Blockchain and smart contracts auditing, specialized in rust technologies. 
+    - Analyzing the security of smart contracts and blockchains by reading the code and finding vulnerabilities.
+    - Writing technical reports and presenting my findings to the client.
+    - Organizing internal learning sessions and sharing knowledge with the team.
+
+# Pentester
+- company: Atos Digital.Security
+  position: Penetration tester
+  duration: May, 2020 &mdash; Nov, 2021
+  location: Paris, France
+  summary: 
+    - Finding vulnerabilities in web applications, mobile applications, and IoT devices.
+    - Writing business proposals for pre-sales.
+    - Providing assistance to the Security Operations Center (SOC) in alert analysis.
+
+# Data Scientist
+- company: SES Satellites
+  position: Internship - Data Scientist
+  duration: Jun, 2019  &mdash; Aug, 2019
+  location: Betzdorf, Luxembourg
+  summary: 
+    - Automation of data search and retrieval from different formats (pdf, text, excel, etc...).
+    - Helped satellites operators to find the data they needed in a few seconds by developing a graphical user interface around the transponders database.
+    - Training of a predictive decision support model for satellite operators using simple machine learning algorithms.
+
+# Machine learning engineer
+- company: AILiveSim
+  position: Internship - Machine learning engineer
+  duration: Jun, 2018  &mdash; Aug, 2018
+  location: Remote
+  summary: 
+    - Extracting and labeling images from a Unreal Engine simulation of an urban environment.
+    - Improving the performance of a known detection neural network (YoloV2) through additional training with the virtual data extracted from the simulation.
+
+# Machine Learning Research Assistant
+- company: Tampere University of Technology
+  position: Internship - Machine Learning Research Assistant
+  duration: Jun, 2017  &mdash; Sep, 2017
+  location: Tampere, Finland
+  summary: 
+    - Reproducing and validating the work of researcher F. Zenke in the domain of spiking neural networks.
