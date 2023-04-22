@@ -16,4 +16,4 @@ layout: default
 - AI & machine learning (Torch, sklearn, scipy, pandas, matplotlib...),
 - Game development (C++ SDL, Lua Love2D, C# Monogame...).
 
-Feel free to contact me at [alexis.fabre@protonmail.com](mailto:alexis.fabre@protonmail.com)
+Feel free to contact me at [hello@alexisfabre.fr](mailto:hello@alexisfabre.fr)
